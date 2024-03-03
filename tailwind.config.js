@@ -14,6 +14,7 @@ module.exports = {
                 "header-form": "url('/header-form-bg.png')",
                 "signup-bg": "url('/signup-bg.svg')",
                 "brokerage-bg": "url('/brokerage-bg.svg')",
+                "track-bg": "url('/track-bg.svg')",
             },
             colors: {
                 "primary": "#00ABE1",
