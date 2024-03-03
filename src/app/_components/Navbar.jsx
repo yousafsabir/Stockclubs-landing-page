@@ -3,8 +3,8 @@ import Image from "next/image";
 
 export default function Navbar() {
     return (
-        <section className="px-[30px] py-5 max-w-[1512px] mx-auto">
-            <nav className="flex justify-between text-primary items-center">
+        <section className="px-[30px] py-[19px] max-w-[1512px] mx-auto">
+            <nav className="flex justify-between items-center">
                 <Link href={"/"}>
                     <Image
                         src={"/logo.svg"}

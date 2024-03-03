@@ -11,10 +11,12 @@ module.exports = {
                 "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
                 "gradient-conic":
                     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+                "header-form": "url('/header-form-bg.png')",
             },
             colors: {
                 "primary": "#00ABE1",
                 "primary-dark": "#127398",
+                "primary-light": "#F5FAFF",
                 "secondary": "#FFC730",
             },
         },
