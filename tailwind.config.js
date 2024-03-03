@@ -15,11 +15,13 @@ module.exports = {
                 "signup-bg": "url('/signup-bg.svg')",
                 "brokerage-bg": "url('/brokerage-bg.svg')",
                 "track-bg": "url('/track-bg.svg')",
+                "contact-us-bg": "url('/contact-us-bg.svg')",
             },
             colors: {
                 "primary": "#00ABE1",
                 "primary-dark": "#127398",
                 "primary-light": "#F5FAFF",
+                "primary-light-2": "#BFEAF7",
                 "secondary": "#FFC730",
             },
         },
