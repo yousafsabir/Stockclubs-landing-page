@@ -13,6 +13,7 @@ module.exports = {
                     "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
                 "header-form": "url('/header-form-bg.png')",
                 "signup-bg": "url('/signup-bg.svg')",
+                "brokerage-bg": "url('/brokerage-bg.svg')",
             },
             colors: {
                 "primary": "#00ABE1",
