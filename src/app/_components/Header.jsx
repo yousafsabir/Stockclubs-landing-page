@@ -1,10 +1,11 @@
 import Button from "@/components/Button";
+import Image from "next/image";
 
 export default function Header() {
     // TODO: set the pb manually
     return (
-        <section className="py-[50px] pb-[80]">
-            <header className="max-w--[1266px] px-[30px] mx-auto flex justify-between items-center">
+        <section className="py-[50px] pb-[200px] relative">
+            <header className="max-w-[1266px] px-[30px] mx-auto flex justify-between items-center">
                 <div className="max-w-[512px]">
                     <h2 className="text-[60px] leading-normal font-semibold mb-4">
                         FAANG INVESTING COMMUNITY
@@ -20,6 +21,13 @@ export default function Header() {
                     <Form />
                 </div>
             </header>
+            <Image
+                className="block absolute left-1/2 -translate-x-1/2  min-w-[1590px] mx-auto -bottom-20"
+                src={"/header-faces-cards.svg"}
+                width={1590}
+                height={258}
+                alt="Signup QR Code"
+            />
         </section>
     );
 }

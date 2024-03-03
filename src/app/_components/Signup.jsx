@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Signup() {
     return (
-        <section className="bg-signup-bg pt-[90px] pb-[70px]">
+        <section className="bg-signup-bg pt-[180px] pb-[70px]">
             <div className="px-[30px] max-w-[1512px] gap-[25px] mx-auto flex">
                 {/* QR Code */}
                 <div className="rounded-[50px] p-[25px] bg-white">
