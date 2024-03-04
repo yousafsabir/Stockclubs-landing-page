@@ -4,6 +4,7 @@ import Brokerage from "./_components/Brokerage";
 import Track from "./_components/Track";
 import Contact from "./_components/Contact";
 import Automate from "./_components/Automate";
+import Reports from "./_components/Reports";
 
 export default function Home() {
     return (
@@ -13,6 +14,7 @@ export default function Home() {
             <Brokerage />
             <Track />
             <Automate />
+            <Reports />
             <Contact />
         </>
     );
