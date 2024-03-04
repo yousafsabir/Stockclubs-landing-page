@@ -43,13 +43,13 @@ const Form = () => {
                     <input
                         type="text"
                         className="rounded-[10px] p-[10px] h-[63px] w-full bg-primary-light border text-xl border-primary text-primary-dark outline-none mb-[10px]"
-                        value={"gracelebon@gmail.com"}
+                        defaultValue={"gracelebon@gmail.com"}
                     />
                     <div className="w-full flex-1 flex justify-between min-h-[19px]"></div>
                     <input
                         type="password"
                         className="rounded-[10px] p-[10px] text-sm h-[63px] w-full bg-primary-light border border-primary text-primary-dark outline-none mb-[10px]"
-                        value={"••••••••••••••••••••••"}
+                        defaultValued={"••••••••••••••••••••••"}
                     />
                     <div className="w-full mb-[30px] flex-1 flex justify-between min-h-[19px]">
                         <span></span>
