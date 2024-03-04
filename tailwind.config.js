@@ -15,6 +15,8 @@ module.exports = {
                 "signup-bg": "url('/signup-bg.svg')",
                 "brokerage-bg": "url('/brokerage-bg.svg')",
                 "track-bg": "url('/track-bg.svg')",
+                "automate-bg": "url('/automate-bg.svg')",
+                "automate-card-bg": "url('/automate-pic-base.svg')",
                 "contact-us-bg": "url('/contact-us-bg.svg')",
             },
             colors: {
