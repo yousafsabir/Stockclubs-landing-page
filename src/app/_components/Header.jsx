@@ -49,7 +49,7 @@ const Form = () => {
                     <input
                         type="password"
                         className="rounded-[10px] p-[10px] text-sm h-[63px] w-full bg-primary-light border border-primary text-primary-dark outline-none mb-[10px]"
-                        defaultValued={"••••••••••••••••••••••"}
+                        defaultValue={"••••••••••••••••••••••"}
                     />
                     <div className="w-full mb-[30px] flex-1 flex justify-between min-h-[19px]">
                         <span></span>
