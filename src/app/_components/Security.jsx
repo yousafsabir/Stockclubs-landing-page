@@ -20,30 +20,44 @@ const content = [
 
 export default function Security() {
     return (
-        <section className="py-[70px] px-[30px] bg-security-bg">
+        <section className="py-[30px] sm:py-[70px] px-[20px] sm:px-[30px] bg-security-bg">
             <div className="py-[60px] max-w-[1512px] rounded-[25px] mx-auto">
                 <h2 className="text-4xl text-center mb-[35px] font-semibold text-white ">
                     SECURITY IS OUR PRIORITY
                 </h2>
-                <div className="grid grid-cols-3 gap-6 mb-[35px]">
+                <div className="grid sm:grid-cols-3 py-[30px] sm:py-0 rounded-[25px] sm:rounded-none bg-white sm:bg-transparent sm:gap-6 mb-[35px]">
                     {content.map((item, idx) => (
-                        <div
-                            className="px-[25px] py-10 bg-white rounded-[25px]"
-                            key={idx}
-                        >
-                            <div className="w-fit mx-auto mb-11">
-                                <img src={item.logo} alt="Card Logo" />
+                        <>
+                            <div
+                                className="px-[25px] sm:py-10 bg-white rounded-[25px]"
+                                key={idx}
+                            >
+                                <div className="w-fit mx-auto mb-5 sm:mb-11">
+                                    <img src={item.logo} alt="Card Logo" />
+                                </div>
+                                <h3 className="text-[24px] sm:text-[33px] whitespace-nowrap text-center text-primary-dark tracking-[1px] mb-1 sm:mb-6">
+                                    {item.heading}
+                                </h3>
+                                <p className="text-[17px] sm:text-[30px] text-center">
+                                    {item.para}
+                                </p>
                             </div>
-                            <h3 className="text-[33px] whitespace-nowrap text-center text-primary-dark tracking-[1px] mb-6">
-                                {item.heading}
-                            </h3>
-                            <p className="text-[30px] text-center">
-                                {item.para}
-                            </p>
-                        </div>
+                            {idx !== 2 && (
+                                <div className="sm:hidden w-[275px] border-b border-primary-dark my-[30px] mx-auto"></div>
+                            )}
+                        </>
                     ))}
+                    <div className="flex justify-center sm:hidden mt-[30px]">
+                        <Button
+                            className={
+                                "bg-secondary text-[17px] w-[300px] h-[50px]  p-0"
+                            }
+                        >
+                            Learn More
+                        </Button>
+                    </div>
                 </div>
-                <div className="flex justify-center">
+                <div className="hidden sm:flex justify-center">
                     <Button className={"bg-secondary px-[100px] py-6"}>
                         Learn More About Security
                     </Button>

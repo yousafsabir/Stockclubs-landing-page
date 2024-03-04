@@ -4,29 +4,31 @@ import Image from "next/image";
 export default function Header() {
     // TODO: set the pb manually
     return (
-        <section className="py-[50px] pb-[200px] relative">
-            <header className="max-w-[1266px] px-[30px] mx-auto flex justify-between items-center">
+        <section className="py-[35px] sm:pt-[50px] sm:pb-[200px] relative">
+            <header className="max-w-[1266px] px-5 sm:px-[30px] mx-auto flex justify-between items-center">
                 <div className="max-w-[512px]">
-                    <h2 className="text-[60px] leading-normal font-semibold mb-4">
+                    <h2 className="text-[30px] sm:text-[60px] text-center sm:text-left leading-normal font-semibold mb-[35px] sm:mb-4">
                         FAANG INVESTING COMMUNITY
                     </h2>
-                    <p className="text-primary-dark font-medium text-3xl leading-[40px]">
+                    <p className="text-primary-dark sm:leading-normal font-medium text-[19px] sm:text-3xl text-center sm:text-left leading-[24px] sm:leading-[40px]">
                         We help people working in BigTech
-                        <br /> make better financial decisions
-                        <br /> with the data and insights
-                        <br /> provided by AI
+                        <br className="hidden sm:block" /> make better financial
+                        decisions
+                        <br className="hidden sm:block" /> with the data and
+                        insights
+                        <br className="hidden sm:block" /> provided by AI
                     </p>
                 </div>
-                <div className="flex-1 max-w-[591px]">
+                <div className="flex-1 hidden max-w-[591px] sm:block">
                     <Form />
                 </div>
             </header>
             <Image
-                className="block absolute left-1/2 -translate-x-1/2  min-w-[1590px] mx-auto -bottom-20"
+                className="hidden sm:block absolute left-1/2 -translate-x-1/2  min-w-[1590px] mx-auto -bottom-20"
                 src={"/header-faces-cards.svg"}
                 width={1590}
                 height={258}
-                alt="Signup QR Code"
+                alt="Faces"
             />
         </section>
     );
