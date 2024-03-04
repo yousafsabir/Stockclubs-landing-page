@@ -1,11 +1,9 @@
 import Navbar from "./_components/Navbar";
 import "./globals.css";
-import { Inter } from "next/font/google";
 import LocalFont from "next/font/local";
 
 const roboto = LocalFont({
-    src: "../../public/fonts/roboto.woff2",
-    weight: ["100", "300", "400", "500", "700", "900"],
+    src: "../../public/fonts/roboto.woff2"
 });
 
 // const inter = Inter({ subsets: ["latin"] });
