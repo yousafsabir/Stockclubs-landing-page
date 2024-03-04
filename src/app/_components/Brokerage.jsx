@@ -12,23 +12,23 @@ export default function Brokerage() {
                         and get access to trading ideas, aggregated stats and
                         discussions in your tech investing community right away.
                     </h2>
-                    <div className="min-w-[642px] relative h-[480px]">
+                    <div className="min-w-[642px] group relative h-[480px]">
                         <Image
-                            className="absolute top-0 -translate-x-1/2 left-1/2"
+                            className="absolute top-0 -translate-x-1/2 left-1/2 group-hover:top-[2%] transition-all duration-500"
                             src="/brokerage-pic-1.png"
                             width={600}
                             height={350}
                             alt="Brokerage Illustrations"
                         />
                         <Image
-                            className="absolute top-[30%] -translate-y-[30%] left-0"
+                            className="absolute top-[30%] -translate-y-[30%] group-hover:top-[35%] group-hover:-translate-y-[35%] left-0 group-hover:-left-[25%] group-hover:translate-x-[25%] transition-all duration-500"
                             src="/brokerage-pic-2.png"
                             width={600}
                             height={350}
                             alt="Brokerage Illustrations"
                         />
                         <Image
-                            className="absolute left-0 bottom-0"
+                            className="absolute group-hover:scale-[1.10] duration-500 transition-all left-0 bottom-0 group-hover:bottom-[10%] group-hover:left-[4%]"
                             src="/brokerage-pic-3.png"
                             width={600}
                             height={350}
