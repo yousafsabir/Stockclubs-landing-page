@@ -2,9 +2,10 @@ import Header from "./_components/Header";
 import Signup from "./_components/Signup";
 import Brokerage from "./_components/Brokerage";
 import Track from "./_components/Track";
-import Contact from "./_components/Contact";
 import Automate from "./_components/Automate";
 import Reports from "./_components/Reports";
+import Security from "./_components/Security";
+import Contact from "./_components/Contact";
 
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             <Track />
             <Automate />
             <Reports />
+            <Security />
             <Contact />
         </>
     );
