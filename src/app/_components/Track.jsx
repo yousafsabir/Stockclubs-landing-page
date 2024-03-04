@@ -8,21 +8,21 @@ export default function Brokerage() {
                     <div className="min-w-[642px] group relative h-[480px]">
                         <Image
                             className="absolute -top-[7%] group-hover:top-[3%] left-0 transition-all duration-500"
-                            src="/track-pic-1.png"
+                            src="/track-pic-1.svg"
                             width={600}
                             height={350}
                             alt="Track Illustrations"
                         />
                         <Image
                             className="absolute top-[50%] -translate-y-[50%] group-hover:top-[80%] group-hover:-translate-y-[80%] left-6 transition-all duration-500"
-                            src="/track-pic-2.png"
+                            src="/track-pic-2.svg"
                             width={600}
                             height={350}
                             alt="Track Illustrations"
                         />
                         <Image
                             className="absolute group-hover:scale-[1.10] transition-all duration-500 left-0 bottom-0"
-                            src="/track-pic-3.png"
+                            src="/track-pic-3.svg"
                             width={600}
                             height={350}
                             alt="Track Illustrations"

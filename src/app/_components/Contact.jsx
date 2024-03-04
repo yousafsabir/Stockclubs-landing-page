@@ -15,7 +15,7 @@ export default function Contact() {
                 </p>
                 <div className="flex gap-[50px] mb-[120px] justify-between items-center">
                     <Image
-                        src="/contact-us-person.png"
+                        src="/contact-us-person.svg"
                         alt="Contact Us Illustration"
                         width={562}
                         height={651}

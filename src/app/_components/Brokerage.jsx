@@ -22,14 +22,14 @@ export default function Brokerage() {
                         />
                         <Image
                             className="absolute top-[30%] -translate-y-[30%] group-hover:top-[35%] group-hover:-translate-y-[35%] left-0 group-hover:-left-[25%] group-hover:translate-x-[25%] transition-all duration-500"
-                            src="/brokerage-pic-2.png"
+                            src="/brokerage-pic-2.svg"
                             width={600}
                             height={350}
                             alt="Brokerage Illustrations"
                         />
                         <Image
                             className="absolute group-hover:scale-[1.10] duration-500 transition-all left-0 bottom-0 group-hover:bottom-[10%] group-hover:left-[4%]"
-                            src="/brokerage-pic-3.png"
+                            src="/brokerage-pic-3.svg"
                             width={600}
                             height={350}
                             alt="Brokerage Illustrations"

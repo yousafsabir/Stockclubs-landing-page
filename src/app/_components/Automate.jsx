@@ -16,21 +16,21 @@ export default function Automate() {
                         <div className="absolute left-0 right-0 top-[40%] -translate-y-[40%] flex flex-col gap-4">
                             <Image
                                 className="hover:scale-[1.2] transition-transform"
-                                src="/automate-pic-1.png"
+                                src="/automate-pic-1.svg"
                                 width={600}
                                 height={350}
                                 alt="Automate Illustrations"
                             />
                             <Image
                                 className="hover:scale-[1.2] transition-transform"
-                                src="/automate-pic-2.png"
+                                src="/automate-pic-2.svg"
                                 width={600}
                                 height={350}
                                 alt="Automate Illustrations"
                             />
                             <Image
                                 className="hover:scale-[1.2] transition-transform"
-                                src="/automate-pic-3.png"
+                                src="/automate-pic-3.svg"
                                 width={600}
                                 height={350}
                                 alt="Automate Illustrations"

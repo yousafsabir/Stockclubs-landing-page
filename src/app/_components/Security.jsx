@@ -21,7 +21,7 @@ const content = [
 export default function Security() {
     return (
         <section className="py-[70px] px-[30px] bg-security-bg">
-            <div className="px-[20px] py-[60px] max-w-[1512px] rounded-[25px] mx-auto">
+            <div className="py-[60px] max-w-[1512px] rounded-[25px] mx-auto">
                 <h2 className="text-4xl text-center mb-[35px] font-semibold text-white ">
                     SECURITY IS OUR PRIORITY
                 </h2>
